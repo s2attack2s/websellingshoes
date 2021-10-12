@@ -1,0 +1,64 @@
+version: '3'
+services:
+  #PHP Service
+  crawl_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: crawl/crawl.vn
+    container_name: crawl_app
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: crawl_app
+      SERVICE_TAGS: dev
+    working_dir: /var/www
+    volumes:
+       - ./:/var/www
+       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - crawl-network
+
+  #Nginx Service
+  crawl_webserver:
+    image: nginx:alpine
+    container_name: crawl_webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "2218:80"
+      - "2219:443"
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - crawl-network
+
+  #MySQL Service
+  crawl_db:
+    image: mysql:5.7.22
+    container_name: crawl_db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "83306:3306"
+    environment:
+      MYSQL_DATABASE: crawl.vn
+      MYSQL_ROOT_PASSWORD: Admin@123
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./mysql/my.cnf:/etc/mysql/my.cnf
+    networks:
+      - crawl-network
+
+#Volumes
+volumes:
+  dbdata:
+    driver: local
+
+#Docker Networks
+networks:
+  crawl-network:
+    driver: bridge
