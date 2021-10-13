@@ -34,6 +34,7 @@
 #footer .footer-content ul li{
     color: #fff;
     list-style-type: none;
+    cursor: pointer;
 }
 #footer .footer-content ul li:hover{
     color: black;

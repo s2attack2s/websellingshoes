@@ -1,0 +1,80 @@
+.listProducts {
+    width: 100%;
+}
+.listProducts .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.listProducts .flex-item {
+    background: #fff;
+    padding: 5px;
+    width: calc(25% - 20px);
+    min-height: 250px;
+    color: black;
+}
+.listProducts h3 {
+    margin-left: 10px;
+}
+.listProducts .flex-item img {
+    width: 100%;
+    min-height: 247px;
+}
+.listProducts .flex-item .name-product{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.listProducts .price-product{
+    float: left;
+    font-size: 19px;
+}
+.listProducts .price-product span::after{
+    content: 'vnđ';
+    margin-left: 5px;
+}
+.listProducts .add-cart-product{
+    float: right;
+}
+.listProducts .add-cart-product .fa-cart-plus:before{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #238ae6ed;
+}
+.listProducts a{
+    color: black;
+    cursor: pointer;
+}
+.listProducts a:hover{
+    color: #238ae6ed;
+    text-decoration: none;
+}
+.listProducts .content-listProduct .flex-item{
+    margin: 0 10px 10px 10px;
+}
+.listProducts .news-listProduct, .listProducts .content-listProduct{
+    margin-top: 40px;
+}
+.listProducts .fa-angle-left{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    z-index: 1;
+}
+.listProducts .fa-angle-right{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    z-index: 1;
+}
+.listProducts .fa-angle-left:before, .listProducts .fa-angle-right:before{
+    color: red;
+    font-size: 30px;
+}
+.listProducts .news-product-slider{
+    width: calc(100% - 20px);
+    margin-left: 10px;
+}

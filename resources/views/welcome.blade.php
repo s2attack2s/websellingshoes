@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/assets/slick/css/slick.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="/assets/slick/css/slick-theme.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="/assets/fontawesome-free-5.15.3-web/css/all.min.css" />
+    <link href="/css/home/app.css" rel="stylesheet">
     <link href="/css/home/menu.css" rel="stylesheet">
     <link href="/css/home/footer.css" rel="stylesheet">
 
