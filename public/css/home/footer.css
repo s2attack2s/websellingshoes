@@ -1,6 +1,7 @@
 #footer{
    background-color: #238ae6ed;
    padding-top: 30px;
+   margin-top: 10px;
 }
 #footer a{
     color: #fff;
@@ -10,8 +11,6 @@
     text-decoration: none;
 }
 #footer .footer-top{
-    width: 80%;
-    margin: auto;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -38,4 +37,8 @@
 }
 #footer .footer-content ul li:hover{
     color: black;
+}
+#footer .footer-map iframe{
+    width: 80%;
+    border-radius: 10%;
 }
