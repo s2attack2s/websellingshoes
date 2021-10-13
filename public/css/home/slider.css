@@ -8,6 +8,7 @@
     z-index: 1;
     color: red;
     display: none !important;
+    cursor: pointer;
 }
 .slider-nav:hover i {
     display: inline !important;
