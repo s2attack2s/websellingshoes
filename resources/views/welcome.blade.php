@@ -9,6 +9,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/assets/bootstrap-4.5.0/css/bootstrap.min.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="/assets/bootstrap-3.3.7/css/bootstrap.min.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="/assets/bootstrap-3.3.7/css/bootstrap-theme.min.css" type="text/css" media="all"/>
@@ -16,7 +17,7 @@
     <link rel="stylesheet" href="/assets/slick/css/slick-theme.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="/assets/fontawesome-free-5.15.3-web/css/all.min.css" />
     <link href="/css/home/app.css" rel="stylesheet">
-    <link href="/css/home/menu.css" rel="stylesheet">
+    <link href="/css/home/header.css" rel="stylesheet">
     <link href="/css/home/footer.css" rel="stylesheet">
 
     @yield('css')
