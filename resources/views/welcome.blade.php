@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
+    <link href="\asset\font-awesome-4.7.0\css\font-awesome.css" rel="stylesheet">
+    <link href="\asset\font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet">
     <link href="/css/home/menu.css" rel="stylesheet">
     <link href="/css/home/footer.css" rel="stylesheet">
 
