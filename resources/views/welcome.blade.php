@@ -9,10 +9,14 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link href="\asset\font-awesome-4.7.0\css\font-awesome.css" rel="stylesheet">
-    <link href="\asset\font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/bootstrap-4.5.0/css/bootstrap.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="/assets/bootstrap-3.3.7/css/bootstrap.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="/assets/bootstrap-3.3.7/css/bootstrap-theme.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="/assets/slick/css/slick.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="/assets/slick/css/slick-theme.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="/assets/fontawesome-free-5.15.3-web/css/all.min.css" />
+    <link href="/css/home/app.css" rel="stylesheet">
     <link href="/css/home/header.css" rel="stylesheet">
     <link href="/css/home/footer.css" rel="stylesheet">
 
@@ -26,13 +30,17 @@
     @yield('body')
     @include('Home.Footer')
 
-    @yield('scripts')
-
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="/assets/jquery/js/jquery-3.5.1.min.js" type="text/javascript"></script>
+    <script src="/assets/bootstrap-4.5.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets/jquery/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="/assets/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/assets/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/js/common/jquery-form.js" type="text/javascript"></script>
+    <script src="/js/common/jquery-cookie.js" type="text/javascript"></script>
+    <script src="/assets/slick/js/slick.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-
+    @yield('scripts')
 </body>
 
 </html>
