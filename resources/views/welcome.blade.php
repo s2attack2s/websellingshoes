@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="\asset\font-awesome-4.7.0\css\font-awesome.css" rel="stylesheet">
     <link href="\asset\font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet">
-    <link href="/css/home/menu.css" rel="stylesheet">
+    <link href="/css/home/header.css" rel="stylesheet">
     <link href="/css/home/footer.css" rel="stylesheet">
 
     @yield('css')
