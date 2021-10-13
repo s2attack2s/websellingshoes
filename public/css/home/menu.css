@@ -1,3 +1,27 @@
-#menu{
-    
+#header{
+   background-color: #238ae6ed;
+   color: #ffff;
+}
+
+#header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#header .top-header{
+    display: flex;
+    align-items: center;
+}
+
+
+#header .top-header .header_link{
+    padding: 0 .625rem;
+}
+
+#header .top-header .top-header-spacer{
+    flex:1;
+}
+
+#header .top-header .right-top-header{
+    display: flex;
 }
