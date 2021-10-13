@@ -21,7 +21,7 @@
 
 <body class="">
 
-    @include('Home.Menu')
+    @include('Home.Header')
     @yield('body')
     @include('Home.Footer')
 
