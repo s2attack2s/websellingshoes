@@ -6,7 +6,7 @@
     top: 50%;
     font-size: 30px;
     z-index: 1;
-    color: red;
+    color: #238ae6ed;
     display: none !important;
     cursor: pointer;
 }
@@ -21,6 +21,6 @@
     float: right;
     right: 50px;
 }
-.slider-nav img {
-    border-radius: 25px;
+.slider-nav img{
+    max-height: 500px;
 }
