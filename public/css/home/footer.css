@@ -41,5 +41,16 @@
 }
 #footer .footer-map iframe{
     width: 80%;
-    border-radius: 10%;
 }
+@media screen and (max-width: 426px) {
+    #footer .footer-top{
+        flex-wrap: wrap;
+    }
+    #footer .footer-content{
+        width: 100%;
+    }
+    #footer .footer-map iframe{
+        width: 100%;
+    }
+}
+

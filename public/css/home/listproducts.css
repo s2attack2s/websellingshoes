@@ -13,7 +13,7 @@
 .listProducts .flex-item {
     background: #fff;
     padding: 5px;
-    width: calc(25% - 20px);
+    width: 25%;
     min-height: 250px;
     color: black;
 }
@@ -52,9 +52,6 @@
     color: #238ae6ed;
     text-decoration: none;
 }
-.listProducts .content-listProduct .flex-item{
-    margin: 0 10px 10px 10px;
-}
 .listProducts .news-listProduct, .listProducts .content-listProduct{
     margin-top: 40px;
 }
@@ -63,18 +60,33 @@
     top: 40%;
     left: 20px;
     z-index: 1;
+    cursor: pointer;
 }
 .listProducts .fa-angle-right{
     position: absolute;
     top: 40%;
     right: 20px;
     z-index: 1;
+    cursor: pointer;
 }
 .listProducts .fa-angle-left:before, .listProducts .fa-angle-right:before{
-    color: red;
+    color: #238ae6ed;
     font-size: 30px;
 }
 .listProducts .news-product-slider{
     width: calc(100% - 20px);
     margin-left: 10px;
+}
+.listProducts .flex-item:hover{
+    border: 1px solid orangered;
+}
+@media screen and ( max-width: 768px){
+    .listProducts .flex-item{
+        width: 33.33%;
+    }
+}
+@media screen and ( max-width: 426px){
+    .listProducts .flex-item{
+        width: 50%;
+    }
 }
