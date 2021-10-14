@@ -15,21 +15,21 @@
             <div class="notification-top-header header_link">
                 <a href=""><i class="fa fa-bell-o" aria-hidden="true"></i> Thông Báo</a>
                 <div class="notification-top-header-hidden">
-
-                    <div class="notification-top-header-hidden-text">
-                        <p>Bạn phải đăng nhập</p>
-                    </div>
-
-                    <div class="notification-top-header-hidden-register-login">
-                    
-                        <div class="notification-top-header-hidden-register">
-                            <a href="">Đăng ký</a>
+                    <div class="notification-top-header-hidden-w">
+                        <div class="notification-top-header-hidden-text">
+                            <p>Bạn phải đăng nhập</p>
                         </div>
 
-                        <div class="notification-top-header-hidden-login">
-                            <a href="">Đăng nhập</a>
-                        </div>
+                        <div class="notification-top-header-hidden-register-login">
+                        
+                            <div class="notification-top-header-hidden-register">
+                                <a href="">Đăng ký</a>
+                            </div>
 
+                            <div class="notification-top-header-hidden-login">
+                                <a href="">Đăng nhập</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
