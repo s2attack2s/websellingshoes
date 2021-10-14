@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="/assets/fontawesome-free-5.15.3-web/css/all.min.css" />
     <link href="/css/home/app.css" rel="stylesheet">
     <link href="/css/home/header.css" rel="stylesheet">
+    <link href="/css/home/menu.css" rel="stylesheet">
     <link href="/css/home/footer.css" rel="stylesheet">
 
     @yield('css')
@@ -27,6 +28,7 @@
 <body class="">
 
     @include('Home.Header')
+    @include('Home.Menu')
     @yield('body')
     @include('Home.Footer')
 

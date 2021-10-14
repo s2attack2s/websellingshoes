@@ -1,0 +1,25 @@
+#menu {
+    background-color: #2934cced;
+ }
+
+ #menu .row{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 0;
+ }
+
+ #menu .row a{
+     text-decoration: none;
+ }
+
+ #menu .row li{
+    list-style-type: none;
+ }
+
+ #menu .row li a p{
+    color: #fff;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
