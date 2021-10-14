@@ -7,7 +7,7 @@
     <li>Email  : s2attack2s@gmail.com</li>
     <li>Phone  : 0818618767</li>
     <li>Address: Tân lộc - Lộc Hà - Hà Tĩnh</li>
-    <li><a href="https://www.facebook.com/sonnguyen2605">Facebook</a> </li>
+    <li>Theo dõi chúng tôi: <a href="https://www.facebook.com/sonnguyen2605">Facebook</a> </li>
 </ul>
 </div>
 <div class="footer-content footer-product">
